@@ -31,28 +31,6 @@ export default function Layout({ children, pageTitle, metaDescription, showHomeL
 
         {children}
       </main>
-      <footer className={styles.footer}>
-        Powered by{' '}
-        <span className={styles.logo}>
-          <a
-            href="https://ably.com/?utm_source=github&utm_medium=github-repo&utm_campaign=GLB-2211-ably-nextjs-fundamentals-kit&utm_content=ably-nextjs-fundamentals-kit&src=GLB-2211-ably-nextjs-fundamentals-kit-github-repo"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image src="https://static.ably.dev/logo-h-mono-black.svg?ably-nextjs-fundamentals-kit" alt="Ably Logo" width={102} height={18} />
-          </a>
-        </span>
-        &amp;
-        <span className={styles.logo}>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=ably-nextjs-fundamentals-kit&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image src="/vercel.svg" alt="Vercel Logo" width={100} height={16} />
-          </a>
-        </span>
-      </footer>
     </div>
   )
 }
