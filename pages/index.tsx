@@ -7,9 +7,7 @@ export default function Home() {
         metaDescription={"Ably and Next.js fundamentals starter kit"}
         showHomeLink={false}
       >
-        <p className={styles.description}>
-          This application demonstrates using some of the Ably fundamentals with Next.js. You can build features and use cases upon these fundamentals such as notifications, activity streams, chat, realtime visualisations and dashboards, and collaborative multiplayer experiences.
-        </p>
+        <p className={styles.description}>THERE IS NO CRYING ON GITHUB</p>
 
         <div className={styles.grid}>
           <a href="./authentication" className={styles.card}>
