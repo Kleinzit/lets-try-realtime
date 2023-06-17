@@ -31,6 +31,13 @@ export default function Home() {
               Retrieve a history of messages that have been published to a channel.
             </p>
           </a>
+
+          <a href="./channels" className={styles.card}>
+            <h2>Channel List &rarr;</h2>
+            <p>
+              See the channel list
+            </p>
+          </a>
         </div>
       </Layout>
   )

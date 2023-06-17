@@ -68,8 +68,6 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .card {
-    border-color: #222;
-  }
+.card {
+  border-color: #222;
 }
