@@ -18,7 +18,7 @@ const NextUiLayout: React.FC<Props> = ({ children }) => {
     <Container>
       <Navbar isBordered variant="sticky">
         <Navbar.Brand>
-          <Text b color="inherit" hideIn="xs">
+          <Text b color="inherit">
             APP
           </Text>
         </Navbar.Brand>

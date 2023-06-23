@@ -1,4 +1,5 @@
-import { Button, Container, Row, Col, Text, Link } from "@nextui-org/react";
+import { Button, Container, Row, Col, Text } from "@nextui-org/react";
+import Link from "next/link";
 
 const IndexPage = () => (
   <Container>

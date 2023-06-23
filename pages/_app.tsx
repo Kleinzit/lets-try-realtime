@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
       attribute="class"
       value={{ light: darkTheme.className, dark: darkTheme.className }}
     >
-      <NextUIProvider>
+      <NextUIProvider theme={darkTheme}>
         <NextUiLayout>
           <Component {...pageProps} />
         </NextUiLayout>
